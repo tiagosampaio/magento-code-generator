@@ -1,5 +1,5 @@
 {
-    "name": "tiagosampaio/php-code-generator",
+    "name": "tiagosampaio/magento-code-generator",
     "description": "Code Generator for PHP.",
     "type": "project",
     "keywords": ["code-generator", "php"],
@@ -22,12 +22,12 @@
     },
     "autoload": {
         "psr-4": {
-            "TiagoSampaio\\": "src/"
+            "MagentoCodeGenerator\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "TiagoSampaioTest\\": "dev/test/unit/"
+            "MagentoCodeGeneratorTest\\": "dev/test/unit/"
         }
     }
 }
